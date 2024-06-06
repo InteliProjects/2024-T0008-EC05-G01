@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+}
+
+body {
+    background-color: #F0F7FF;
+}
+
+.navegacaoAzul {
+    background-color: #4688D7;
+    padding: 2%;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.logo_editar {
+    max-width: 3%;
+    max-height: 2%;
+    margin-right: 4%;
+}
+
+.edicao,
+.cancelar {
+    background-color: #E3EEFF;
+    font-size: 1em;
+    padding: 1% 2%;
+    border: none;
+    margin-right: 2%;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 19%;
+    font-size: 1.5em;
+}
+
+
+.edicao {
+    position: relative;
+    /* top: auto; */
+    left: 38%;
+    bottom: 5px;
+}
+
+.cancelar {
+    position: relative;
+    top: auto;
+    left: 40%;
+    bottom: 5px;
+}
+
+.linha {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.novo_kit {
+    color: #F0F7FF;
+}
+
+.linha {
+    margin-top: 2%;
+}
+
+.item {
+    color: #E3EEFF;
+    text-align: center;
+}
+
+.medicamento {
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.medicamento,
+.quantidade {
+    color: #204776;
+}
+
+.box1 {
+    background-color: #4688D7;
+    width: 15%;
+    border-radius: 15px;
+    padding: 2%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    background-color: #E3EEFF;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.adicaoItem {
+    display: inline-block;
+}
+
+.adicao {
+    font-size: 17em;
+    color: #F0F7FF;
+    background-color: #4688D7;
+    border: none;
+    border-radius: 10px;
+    padding: 1% 2%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 20%;
+    cursor: pointer;
+
+
+}
+
+.triangulo_baixo {
+    display: flex;
+    bottom: 1px;
+    right: 1.95%;
+}
+
+.triangulo_cima {
+    position: absolute;
+    bottom: -11px;
+    right: -20%;
+}

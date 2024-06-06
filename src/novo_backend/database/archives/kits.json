@@ -1,0 +1,31 @@
+{
+	"_default": {
+		"1": {
+			"nome": "Kit-1",
+			"medicamentos": [
+				{
+					"nome": "Luvas Cirurgicas Esterilizadas",
+					"quantidade": 4,
+					"altura": 4,
+					"pos": {
+						"x": 93.0,
+						"y": 240.5,
+						"z": -30.0,
+						"r": 0.0
+					}
+				},
+				{
+					"nome": "Needle Guide Kit",
+					"quantidade": 0,
+					"altura": 10,
+					"pos": {
+						"x": 130.0,
+						"y": 235.0,
+						"z": 57.5,
+						"r": 0.0
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #F0F7FF;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+}
+
+.excluindo {
+    flex: 1;
+    text-align: center;
+}
+
+.botoes {
+    text-align: center;
+
+}
+
+.voltar {
+    margin-right: 10px;
+    border-radius: 20%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #C5DBF2;
+    width: 20%;
+    /* Defina a largura desejada para os botões */
+    cursor: pointer;
+    /* Cursor do mouse para indicar que é clicável */
+    color: black;
+    font-size: 2em;
+
+
+}
+
+.centro {
+    vertical-align: auto;
+
+}
+
+.excluir {
+    background-color: #FBCFBD;
+    width: 20%;
+    /* Defina a largura desejada para os botões */
+
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    margin-right: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    /* Cursor do mouse para indicar que é clicável */
+    font-size: 2em;
+
+
+
+}
+
+.kit_model {
+    font-size: 4em;
+    color: #204776;
+}
+
+
+.kit_name {
+    color: #4688D7;
+    font-size: 3em;
+}
+
+.certeza {
+    color: #204776;
+    font-size: 2em;
+}

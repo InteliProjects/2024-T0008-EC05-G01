@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armazém</title>
+    <link rel="stylesheet" href="/static/css/reabastecimento.css">
+    <script src="https://unpkg.com/htmx.org@1.9.11" integrity="sha384-0gxUXCCR8yv9FM2b+U3FDbsKthCI66oH5IA9fHppQq9DDMHuMauqq1ZHBpJxQ0J0" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', path='/scripts/reabastecimento.js') }}"></script>
+    <script src="{{ url_for('static', path='/scripts/reabastecimento2.js') }}"></script>
+</head>
+
+<body>
+    <div class="navegacaoAzul">
+        <img class="logo_editar" src="../static/img/logo_editar.png" alt="not found">
+        <h1 class="novo_kit"> Armazém </h1>
+        <a class="edicao" href="/auxiliar">
+            <button class="edicao">Reabastecido</button>
+        </a>
+        <a class="cancelar" href="/auxiliar">
+            <button class="cancelar">Voltar</button>
+        </a>
+    </div>
+    <div class="linha">
+        {% for item in items %}
+        <div class="box1">
+            <h1 class="item">{{ item.nome }}</h1>
+            <div class="box2">
+                <h2 class="medicamento">Quantidade: {{ item.quantidade }}</h2>
+            </div>
+        </div>
+        {% endfor %} 
+        <a class="adicaoItem">
+            <button class="adicao" onclick="novoItem()">+</button>
+        </a>
+    </div>
+</body>
+    <!-- <img class="triangulo_baixo" src="../img/triangulos.png" alt="not found">
+    <img class="triangulo_cima" src="../img/triangulos.png" alt="not found"> -->
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F7FF;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+}
+
+.navegacaoAzul {
+    background-color: #4688D7;
+    padding: 2%;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.logo_editar {
+    max-width: 3%;
+    max-height: 2%;
+    margin-right: 4%;
+}
+
+.edicao,
+.cancelar {
+    background-color: #E3EEFF;
+    font-size: 1em;
+    padding: 1% 2%;
+    border: none;
+    /* margin-right: 4%; */
+    border-radius: 20px;
+    cursor: pointer;
+    width: 15%;
+    font-size: 1.5em;
+}
+
+
+.edicao {
+    position: relative;
+    left: 28%;
+    bottom: 5px;
+}
+
+.cancelar {
+    position: relative;
+    top: auto;
+    left: 30%;
+    bottom: 5px;
+}
+
+
+
+.novo_kit {
+    color: #F0F7FF;
+}
+
+.linha {
+    margin-top: 2%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  
+
+}
+
+.item {
+    color: #E3EEFF;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.medicamento {
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.medicamento,
+.quantidade {
+    color: #204776;
+}
+
+.box1 {
+    background-color: #4688D7;
+    border-radius: 15px;
+    padding: 2% 2%;
+    border: none;
+    min-width: 150px;
+    width: 200px;
+}
+
+
+.box2 {
+    background-color: #E3EEFF;
+    border-radius: 15px;
+    text-align: right;
+}
+
+.adicao {
+    font-size: 10em;
+    color: #F0F7FF;
+    background-color: #4688D7;
+    border: none;
+    border-radius: 10px;
+    padding: 15% 12%;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    position: relative;
+    left: 43%;
+    cursor: pointer;
+
+
+}
+
+.triangulo_baixo {
+    display: flex;
+    bottom: 1px;
+    right: 1.95%;
+}
+
+.triangulo_cima {
+    position: absolute;
+    position: absolute;
+    bottom: -11px;
+    right: -20%;
+}

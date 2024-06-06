@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../static/css/style_telaExclusa.css">
+
+    <script src="https://unpkg.com/htmx.org@1.9.11"
+        integrity="sha384-0gxUXCCR8yv9FM2b+U3FDbsKthCI66oH5IA9fHppQq9DDMHuMauqq1ZHBpJxQ0J0"
+        crossorigin="anonymous"></script>
+    <script src="../static/scripts/telaExclusao.js"></script>
+</head>
+
+<body>
+    <div class="centro">
+        <div class="excluindo">
+            <h1 class="kit_model">Excluindo Modelo do Kit ? </h1>
+            <p class="kit_name">Parada Cardiaca</p>
+            <p class="certeza">Tem certeza que deseja excluir esse modelo ?</p>
+        </div>
+        <div class="botoes">
+            <a href="/telaP">
+                <button class="voltar">Voltar</button>
+            </a>
+            <button class="excluir" onclick="deletarKit()">Excluir</button>
+        </div>
+</body>
+
+</html>

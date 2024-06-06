@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/config.css">
+    <link rel="stylesheet" href="/static/css/config.css">
+    <!-- Importe HTMX -->
+    <script src="https://unpkg.com/htmx.org@1.9.11" integrity="sha384-0gxUXCCR8yv9FM2b+U3FDbsKthCI66oH5IA9fHppQq9DDMHuMauqq1ZHBpJxQ0J0" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', path='/scripts/config-1.js') }}"></script>
+    <script src="{{ url_for('static', path='/scripts/config-2.js') }}"></script>
+    <script src="{{ url_for('static', path='/scripts/reabastecimento.js') }}"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="half">
+            <div>
+                <h1 class="item">Item</h1>
+                <!-- Lista suspensa para mostrar medicamentos disponíveis -->
+                <select class="selecao" id="medicamentosSelect" name="medicamentos">
+                    <option value="" selected disabled>Selecione um medicamento</option>
+                </select>
+            </div>
+            <div>
+                <h1 class="quantidade_title">Quantidade</h1>
+                <input class="quantidade" type="text" id="quantidadeInput">
+                <button class="atualizar" onclick="atualizarDados()">Atualizar</button>
+            </div>
+        </div>
+        <div class="half">
+            <div class="config">
+                <h1 class="config_atual">Configuração Atual</h1>
+                <h2 class="item_config">Item:</h2>
+                <h2>Medicamento 1</h2>
+                <h2 class="quantidade_config">Quantidade:</h2>
+                <h2>5</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container para mostrar os medicamentos disponíveis -->
+    <div id="medicamentos-disponiveis"></div>
+</body>
+
+</html>

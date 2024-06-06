@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registros</title>
+</head>
+<body>
+    <h1>Dados Recebidos:</h1>
+    {% for dado in dados %}
+        <p>Dado: {{dado.dado}} - IP-SEND: {{dado.ip_send}} - 'timestamp': {{dado.timestamp}}</p><br
+    {% endfor %}    
+</body>
+</html>

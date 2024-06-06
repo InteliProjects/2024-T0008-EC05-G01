@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+}
+
+nav {
+  max-width: 1340px;
+  margin: auto;
+  padding: 1.5rem 2.5rem;
+}
+
+h1 {
+  font-family: poppins, sans-serif; 
+  font-weight: semibold;
+  font-size: 35px;  
+  color:#204776;
+  padding: 1em;
+
+}
+
+.search-bar {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #4688D7;
+    padding: 1em;
+    border-radius: 50px;
+  }
+  
+.search-icon {
+  display: inline-block;
+  margin-right: 1em;
+  margin-left: 0.3em;
+  margin-top: 0.38em;
+  height: 48px;
+  width: 48px;
+  background-color: #fefefe;
+  border-radius: 25px;
+
+}
+  .search-input {
+    flex: 1.5;
+    padding: 1em;
+    border: none;
+    border-radius: 50px;
+    margin-right: 16px;
+    outline: none;
+    background-image: url(./lupa.svg);
+    background-repeat: no-repeat; /* Não repete o ícone */
+    background-position: 2% 50%; /* Posiciona o ícone no centro vertical */
+    background-size: 2rem; /* Tamanho do ícone */
+    padding-left: 3rem; /* Espaçamento do ícone */
+  }
+
+  .search-button {
+    padding: 15px 40px;
+    background-color: #E3EEFF;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 1.2em;
+  }
+
+  h2 {
+    max-width: 39px;
+    height: 100px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #303131;
+    text-align: center;
+    padding-left: 10px;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .juncao {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    border-width: 1px; 
+    border-radius: 10px;
+    border-style: solid; 
+    border-color:  #303131;
+  } 
+
+  .kits {
+    width: 200px;
+    height: 109px;
+    border-radius: 10px;
+    border-bottom-left-radius: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: #ffffff;
+    text-align: left;
+    padding-top: 10px; /* Adiciona um espaçamento de 10px acima de cada kit */
+    padding-left: 10px;
+    margin-left: 38px;
+  }
+  
+
+  .nome-kit {
+    font-weight: bold;
+    font-size: 27px;
+    color:#303131;
+    padding-inline: 10px;
+    /* text-align: left;
+    padding-left: 10px; */
+
+  }
+
+  .delete-button {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100px;
+    border: none;
+    max-width: 90px;
+    max-height: 109px;    
+  }
+
+  .image-button{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: none;
+    border: none;
+    max-width: 90px;
+    max-height: 109px;
+  }

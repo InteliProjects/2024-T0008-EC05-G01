@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+}
+
+body{
+    background-color: #F0F7FF;
+}
+
+.navegacaoAzul {
+    background-color: #4688D7;
+    padding: 2%;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.logo_editar {
+    max-width: 3%;
+    max-height: 2%;
+    margin-right: 4%;
+}
+
+.edicao,
+.cancelar {
+    background-color: #E3EEFF;
+    font-size: 1em;
+    padding: 1% 2%;
+    /* 2px 20px em relação à largura do contêiner pai */
+    border: none;
+    margin-right: 4%;
+    /* 20px em relação à largura do contêiner pai */
+    border-radius: 20px;
+    cursor: pointer;
+    width: 15%;
+    font-size: 1.5em;
+}
+
+
+.edicao {
+    position: relative;
+    /* top: auto; */
+    left: 38%;
+    /* 600px em relação à largura do contêiner pai */
+    bottom: 5px;
+}
+
+.cancelar {
+    position: relative;
+    top: auto;
+    left: 40%;
+    /* 600px em relação à largura do contêiner pai */
+    bottom: 5px;
+}
+
+
+.novo_kit {
+    color: #F0F7FF;
+}
+
+
+.adicao {
+    font-size: 7em;
+    color: #F0F7FF;
+    background-color: #4688D7;
+    border: none;
+    border-radius: 10px;
+    padding: 1% 2%;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center; /* Centraliza verticalmente */
+    width: 15%; /* Defina a largura desejada */
+    position: relative;
+    left: 43%; /* Ajuste para centralizar horizontalmente */
+    cursor: pointer;
+
+
+}
+
+

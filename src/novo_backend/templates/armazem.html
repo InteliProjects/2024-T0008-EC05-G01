@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela principal</title>
+    <meta name="description" content="Tela principal do sistema">
+    <link rel="stylesheet" type="text/css" href="../static/css/tp.css">
+    <script src="https://unpkg.com/htmx.org@1.7.0/dist/htmx.js"></script>
+    <script src="{{ url_for('static', path='/scripts/fila.js') }}"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="search-bar">
+                <div>
+                    <img class="search-icon" src="../static/img/logo_arm.png" alt="Ícone de Pesquisa">
+                </div>
+                <input type="text" class="search-input">
+                <a href="/reabastecimento">
+                    <button class="search-button">Armazem</button>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <div class="left-column">
+            <h1>Tabela de Kits:</h1>
+            <!-- Conteúdo da primeira coluna -->
+            {% for kit in kits %}
+            <header class="juncao">
+                <button class="kits">
+                    <div class="config-kit-left">
+                        <h1>{{ kit.nome }}</h1>
+                    </div>
+                </button>
+                <button class="delete-button" hx-get="/edit" hx-trigger="click"><img class="image-button"
+                        src="../static/img/simbolo_mais.png" />
+                </button>
+            </header>
+            {% endfor %}
+
+        </div>
+        <div class="right-column">
+            <h1> Fila de Kits: </h1>
+            <button class="BotaoFila" onclick="adicionar()">
+                <img class="image-button" src="../static/img/exclusao.png" />
+            </button>
+        </div>
+    </main>
+</body>
+
+</html>

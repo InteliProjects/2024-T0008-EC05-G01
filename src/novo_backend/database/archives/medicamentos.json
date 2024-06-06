@@ -1,0 +1,24 @@
+{
+	"_default": {
+		"1": {
+			"nome": "Luvas Cirurgicas Esterilizadas",
+			"quantidade": 4,
+			"pos": {
+				"x": 37.0,
+				"y": -368.0,
+				"z": -35.0,
+				"r": 0.0
+			}
+		},
+		"2": {
+			"nome": "Needle Guide Kit",
+			"quantidade": 1,
+			"pos": {
+				"x": 102.0,
+				"y": -224.14,
+				"z": -41.5,
+				"r": 0.0
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"_default": {
+		"1": {
+			"itemId": "medlsFx",
+			"categoria": "Medicamento",
+			"nome": "Ibuprofeno 400mg",
+			"descricao": "Ibuprofeno 400mg - Descricao detalhada do produto.",
+			"dataCompra": "2024-07-08T02:38:35",
+			"dataValidade": "2026-07-08T02:38:35",
+			"lote": "LOIAIFH",
+			"codigoBarras": 6629877633319
+		},
+		"2": {
+			"itemId": "medzXhD",
+			"categoria": "Medicamento",
+			"nome": "Paracetamol 500mg",
+			"descricao": "Paracetamol 500mg - Descricao detalhada do produto.",
+			"dataCompra": "2024-01-17T20:16:38",
+			"dataValidade": "2026-01-16T20:16:38",
+			"lote": "LNRTQOG",
+			"codigoBarras": 3669495580877
+		},
+		"3": {
+			"itemId": "equsVxP",
+			"categoria": "Equipamento",
+			"nome": "Bisturi eletrico",
+			"descricao": "Bisturi eletrico - Descricao detalhada do produto.",
+			"dataCompra": "2024-02-20T05:13:12",
+			"dataValidade": "2029-02-19T05:13:12",
+			"lote": "LRCJFZO",
+			"codigoBarras": 5191260700923
+		},
+		"4": {
+			"itemId": "equWDaG",
+			"categoria": "Equipamento",
+			"nome": "Mesa cirurgica ajustavel",
+			"descricao": "Mesa cirurgica ajustavel - Descricao detalhada do produto.",
+			"dataCompra": "2024-06-13T11:24:07",
+			"dataValidade": "2029-06-12T11:24:07",
+			"lote": "LXTBGKO",
+			"codigoBarras": 4907719472162
+		},
+		"5": {
+			"itemId": "acesgJy",
+			"categoria": "Acessorio",
+			"nome": "Seringas descartaveis",
+			"descricao": "Seringas descartaveis - Descricao detalhada do produto.",
+			"dataCompra": "2024-03-26T09:47:51",
+			"dataValidade": "2026-03-25T09:47:51",
+			"lote": "LDGKYPB",
+			"codigoBarras": 1357902468102
+		},
+		"6": {
+			"itemId": "acepDkM",
+			"categoria": "Acessorio",
+			"nome": "Bolsas de soro",
+			"descricao": "Bolsas de soro - Descricao detalhada do produto.",
+			"dataCompra": "2024-08-20T08:25:22",
+			"dataValidade": "2026-08-20T08:25:22",
+			"lote": "LUAWITR",
+			"codigoBarras": 9859393007940
+		}
+	}
+}

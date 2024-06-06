@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+}
+
+.container {
+    display: flex;
+    /* Usando flex container */
+}
+
+body {
+    background-color: #F0F7FF;
+}
+
+.item,
+.quantidade_title,
+.config_atual,
+.item_config,
+.quantidade_config {
+    color: #204776;
+    border: none;
+
+
+}
+
+.half {
+    flex: 1;
+    /* Ocupa metade do espaço disponível */
+    /* border: 1px solid black; */
+    /* Apenas para visualização */
+}
+
+.config {
+    align-items: center;
+    text-align: center;
+}
+
+.half:first-child {
+    margin-right: 10px;
+    /* Adiciona espaço entre os elementos */
+}
+
+.selecao {
+    width: 60%;
+    height: 40%;
+    background-color: #C5DBF2;
+    border-radius: 5px;
+    padding: 1.5%;
+}
+
+.quantidade {
+    left: 40%;
+    width: 10%;
+    padding: 2%;
+    border-radius: 5px;
+    border: none;
+    background-color: #C5DBF2;
+
+}
+
+.atualizar {
+    background-color: #D8EACC;
+    border: none;
+    border-radius: 5px;
+    padding: 2%;
+
+}

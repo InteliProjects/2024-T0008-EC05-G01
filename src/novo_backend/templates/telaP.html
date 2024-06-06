@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela principal</title>
+  <meta name="description" content="Tela principal do sistema">
+  <link rel="stylesheet" type="text/css" href="../static/css/tp.css">
+  <script src="https://unpkg.com/htmx.org@1.7.0/dist/htmx.js"></script>
+  <script src="{{ url_for('static', path='scripts/config-2.js') }}"></script>
+  <script src="../static/scripts/telaExclusao.js"></script>
+  <script src="{{ url_for('static', path='scripts/armazem.js') }}"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="search-bar">
+        <div>
+          <img class="search-icon" src="../static/img/logo_arm copy.png" alt="Ícone de Pesquisa">
+        </div>
+        <input type="text" class="search-input">
+        <a>
+          <button class="search-button" onclick="novoKit()">Novo Kit</button>
+        </a>
+      </div>
+    </nav>
+  </header>
+  <hr>
+  <h1>Tabela de Kits:</h1>
+  <main>
+    {% for kit in kits %}
+      <header class="juncao">
+            <div class="juncao">
+              <button class="kits" onclick="carregarKitsArmazem('{{ kit.nome }}')">
+                <span class="nome-kit" id="nome-kit">Kit {{ loop.index }}</span>
+                <h2 id="nome ">{{ kit.nome }}</h2>
+              </button>
+              <button class="delete-button" onclick="deletarKit('{{ kit.nome }}')"><img class="image-button" src="../static/img/secaoLixeira.png" /></button>
+            </div>
+      </header>
+    {% endfor %}
+  </main>
+</body>
+</html>
